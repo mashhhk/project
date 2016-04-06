@@ -1,0 +1,11 @@
+int main()
+{
+    int a, b , c, e;
+    cin >> a >> b >> c >> e;
+    if (a == b && b == c && c == e) {
+        cout << "YES";
+    }
+    else cout << "NO";
+    return 0;
+}
+
